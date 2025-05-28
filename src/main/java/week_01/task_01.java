@@ -31,7 +31,10 @@ public class task_01 {
         //This variable will hold the longest word found so far.
         //Initially set to an empty string.
         for (String eachWord : words) {
-
+            /*
+            This loop checks each word in the array one by one:
+            First: eachWord = "Java", then: "is", then "funny"
+            */
             if (eachWord.length()>longestWord.length()) {
                 longestWord=eachWord;
             }
