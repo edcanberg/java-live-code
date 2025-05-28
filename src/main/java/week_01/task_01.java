@@ -13,6 +13,11 @@ public class task_01 {
         String longestWord = findLongestWordInSentence(sentence);
 
         System.out.println(longestWord);
+        /*
+        A variable sentence is created and assigned the value "Java is funny".
+        The method findLongestWordInSentence(sentence) is called and given the sentence.
+        This method finds and returns the longest word (but right now it doesn't print it).
+         */
     }
 
     private static String findLongestWordInSentence(String sentence) {
