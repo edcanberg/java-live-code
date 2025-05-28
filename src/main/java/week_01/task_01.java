@@ -2,6 +2,11 @@ package week_01;
 
 public class task_01 {
     public static void main(String[] args) {
+        
+         /*This program is designed to find the longest word in a sentence.
+        Given sentence: "Java is funny"
+        Goal: Find the longest word in that sentence (in this case, "funny").
+         */
 
         String sentence = "Java is funny";
 
