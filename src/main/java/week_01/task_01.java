@@ -37,6 +37,15 @@ public class task_01 {
             */
             if (eachWord.length()>longestWord.length()) {
                 longestWord=eachWord;
+
+                /* if the current word is longer than the one stored in longestWord, we update it.
+                Step by step:
+                "Java" → length is 4 → longestWord = "Java"
+                "is" → length is 2 → not longer → skip
+                "funny" → length is 5 → longestWord = "funny"
+
+                 */
+
             }
 
 
