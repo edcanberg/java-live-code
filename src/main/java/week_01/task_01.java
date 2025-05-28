@@ -23,6 +23,10 @@ public class task_01 {
     private static String findLongestWordInSentence(String sentence) {
 
         String[] words = sentence.split(" ");
+        /*
+        String[] words = sentence.split(" "); -----> This line splits the sentence into individual words.
+        "Java is funny" becomes ["Java", "is", "funny"]  
+        */
         String longestWord = "";
         for (String eachWord : words) {
 
